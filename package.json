@@ -29,6 +29,9 @@
   },
   "homepage": "https://github.com/KandorApp/bs-email-landing#readme",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "express": "^4.16.3",
+    "got": "^9.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
 }
