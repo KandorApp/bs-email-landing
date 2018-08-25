@@ -7,6 +7,10 @@ FROM alpine:3.7
 # ENV VERSION=v8.11.4 NPM_VERSION=5 YARN_VERSION=latest
 ENV VERSION=v10.9.0 NPM_VERSION=6 YARN_VERSION=latest
 
+ARG PORT=80
+ENV PORT $PORT
+EXPOSE $PORT
+
 # For base builds
 ENV CONFIG_FLAGS="--fully-static --without-npm" DEL_PKGS="libstdc++" RM_DIRS=/usr/include
 
