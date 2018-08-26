@@ -1,0 +1,17 @@
+.page-background {
+    background: url("textile") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.cta {
+    position: relative;
+    top: 35%; 
+    transform: translateY(-35%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+    font-family: 'PT-Mono', 'monospace';
+    color: #eeffe4;
+}
+.cutive {
+    font-family: 'Cutive Mono';
+}
