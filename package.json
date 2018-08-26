@@ -1,6 +1,6 @@
 {
   "name": "bs-email-landing",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "ßloc∫tar email landing site",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
     "landing",
     "page",
     "express",
-    "nodejs"
+    "nodejs",
+    "ipfs"
   ],
   "author": "yusef mosiah",
   "license": "GPL-3.0-or-later",
